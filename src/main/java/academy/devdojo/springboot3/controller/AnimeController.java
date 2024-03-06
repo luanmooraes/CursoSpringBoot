@@ -12,7 +12,7 @@ import java.util.List;
 public class AnimeController {
     @GetMapping("list")
     public List<Anime> list(){
-        return List.of(new Anime("DBZ"), new Anime("Pokemon"));
+        return List.of(new Anime("DBZ"), new Anime("Pokemon"), new Anime("Naruto"));
     }
 }
 
